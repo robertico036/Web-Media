@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>                                Estructura principal de HTML
+</head>
+<body>                                   Las estiquetas que esten dentro de un par se consideran hijos del par.
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>                              Indica al navehador la version de html que 
+                                             usamos(en este caso HTML-5)
+                                               
+
+
+
+
+                                           Nos agrega los caracteres de 
+<meta charset="utf-8">                    otros idiomas para que podamos                   
+                                          usarlos sin dificultad.                    
+
+
+
+<title>NOMBRE EN LA PESTAÑA</title>
+
+
+
+<header>
+                                          Contenedor para Elementos de de parte superior de pagina
+</header>
+
+   
+
+<h1>
+                                           Espribimos encabezados enumerables u ordenadas
+</h1>
+
+
+
+<nav>
+                                            Crea una barra de navegacion.
+</nav>
+
+
+
+
+
+<li></li>                                   Etiqueta o elemento de lista de navegacion
+                                           
+
+
+
+<ul>
+                                             Listas no ordenadas.(unorder list)
+</ul>
+
+
+
+<a href="link/ubicacion.formato"></a>         Crea una un link a un elemento o diferente link
+
+
+
+EJEMPLO:
+
+<li><a href="link/ubicacion.formato">Elemento de la lista</a></li>              
+
+
+
+
+<footer>
+	                                            Informacion de pie de pagina(Redes sociales, etc)
+</footer> 	
+
+
+
+
+<p>
+                                                   Parrafo
+</p>
+
+
+
+<li><img src="ink/ubicacion.formato" alt=""></li>            Visualiza una imagen dentro 
+                                                           de la pagina
+
+alt=""                       Para incorporar informacion a la imagen.
+
+
+
+href=""                      Para incorporar un sitio externo                           
+                             via link o interno via ubicacio
+
+
+
+
+<style>
+                             Etiqueta para da estilo css
+</style>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+include("link/ubicacion.formato");       //include llama al codigo de php(es como si el php archive estuviera escrito en el lugar)
+
+
+
+<!-- 
+	require() establece que el código del archivo invocado es requerido, es decir, obligatorio para el funcionamiento del programa. Por ello, si el archivo especificado en la función require() no se encuentra saltará un error “PHP Fatal error” y el programa PHP se detendrá.
+
+include(), por el contrario, si no se encuentra dicho código, saltará un error tipo “Warning” y el programa seguirá ejecutándose (aunque como consecuencia de no incluirse el código puede que no funcione correctamente, o sí, depende de la situación).
+ -->
+
+
+  //ESTE ES UN COMENTARIO EN PHP
+
+
+
+  &copy                                        Simbolo de @ cerrado que signifiva: registred or resedved
+
+
+
+  ECHO ES UNA FUNCION DE PHP PARA IMPRIMIR PANTALLA
+
+
+
+<?php              CODIGO PHP
+?>

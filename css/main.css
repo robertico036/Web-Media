@@ -1,0 +1,49 @@
+a {
+	text-decoration: none;
+  }
+
+#wraper
+   {
+   	background: #999;
+   	max-width: 940px;
+   	margin: 0 auto;
+   	padding: o 5%;
+   }
+#logo
+   {
+   	text-align: center;
+   	margin: 0;
+   }
+a
+   {
+   	color: #999;
+   }
+header
+   {
+      background: #80ccff;
+   	border-color: #599a68;
+   }
+h1, h2
+   {
+   	color: #999;
+   }
+nav
+   {
+   	background: #599a68;
+   }
+nav a, nav a:visited 
+   {
+   	color: #fff;
+   }
+nav a.selected, a:hover
+   {
+   	color: #008ae6;
+   }
+body
+   {
+   	background-color: #fff;
+      color: #999;
+   }
+#js {
+    border-radius: 50%;
+}

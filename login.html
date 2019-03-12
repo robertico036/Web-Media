@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<?php 
+/*
+include("datosPHP.php");
+*/
+
+ ?>
+<html>
+<head>
+	<title>ejercicioß</title>
+<link rel="stylesheet" type="text/css" href="estilo_pagina.css"/>
+</head>
+<body>
+<center>
+
+</center>
+<table border="0" width="100%">
+	<tr>
+		<td bgcolor="yellow" colspan="2" height="90"><div id="TituloPagina">Encabezado Sellit</td>
+	</tr>
+	<tr>
+		<td bgcolor="gray" width="200" valign="top"> 
+
+           <table cellspacing="5" cellpadding="5" bgcolor="orange" width="100%" border="1">
+           	
+           <!-- Inicio de menus-->
+           	<tr>
+           		<td><a href="index.php">Principales</a></td>
+           	</tr>
+           	<tr>
+           		<td><a href="index.php?modulo=registrar">Registrar</a></td>
+
+           	</tr>
+           	<tr>
+           		<td><a href="index.php?modulo=Ingresar">Ingresar</a></td>
+
+           	</tr>
+           	<tr>
+           		<td><a href="index.php?modulo=Productos">Productos</a></td>
+           	</tr>
+           	<tr>
+           		<td><a href="index.html">Roberto Espinosa</a></td>
+           	</tr>
+           	<tr>
+           		<td>No implementado</td>
+           	</tr>
+           	<!--Fin de Menus-->
+           </table>
+
+		</td>
+
+		<td bgcolor="pink" height="800" valign="top"> 
+      <!--Inicio del Contenedor Principal-->
+
+     <?php 
+    
+    $modulo = isset($_GET['modulo']);
+       if($modulo = "Registrar"){
+        include("./modulos/registrar.php");
+       }elseif ($modulo = "Ingresar") {
+         include("./modulos/ingresar.php");
+       }elseif ($modulo = "Productos") {
+         include("./modulos/productos.php");
+       }
+       ?>
+
+
+
+      <!--Fin de Contenedor principal->
+</td>
+	</tr>
+</table>
+</body>
+</html>
+
+
+
+
+
+
